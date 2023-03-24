@@ -22,4 +22,4 @@ def login():
 # show the directory of each function when the python file is executed
 with app.test_request_context():
     print(url_for('index'))
-    print(url_for('hello')) 
+    print(url_for('hello'))
